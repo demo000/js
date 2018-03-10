@@ -1,0 +1,6 @@
+//数字类型
+    $("input.num").on("keyup", function () {
+        var $this = $(this);
+        var val = regexNum($this.val());
+        $this.val(val)
+    })
